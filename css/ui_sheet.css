@@ -1,0 +1,13 @@
+.round-button {
+	width:40px;
+	height:40px;
+}
+.round-button-circle {
+    border-radius: 40px;
+    
+    background: #4679BD; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+	background:#30588e;
+}
