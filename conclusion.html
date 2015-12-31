@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/landing.css" rel="stylesheet">
 
+    <!-- WOW Plugin CSS -->
+    <link href="css/animate.min.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -38,16 +41,16 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Video Dazed</a>
+                <a href="index.html"  onclick = $("#menu-close").click(); >Video Dazed</a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+                <a href="index.html" onclick = $("#menu-close").click(); >Home</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >Abstract</a>
+                <a href="index.html#about" onclick = $("#menu-close").click(); >Abstract</a>
             </li>
             <li>
-                <a href="#project" onclick = $("#menu-close").click();>Sections</a>
+                <a href="index.html#project" onclick = $("#menu-close").click();>Sections</a>
                 <ol>
                 <li>
                     <a href="intro.html" onclick = $("#menu-close").click();>Introduction + Background</a>
@@ -116,13 +119,13 @@
         </div>
       </div>
     <!-- Header -->
-    <header id="top" class="header-example-page">
+    <header id="top" class="header-example-page wow fadeIn" data-wow-duration=".75s" data-wow-delay=".05s">
         </div>
         <div class="text-vertical-align">
-            <h1>INTRODUCTION + BACKGROUND</h1>
+            <h1>CONCLUSION</h1>
             <h3>This is an example page</h3>
             <br>
-             <a href="index.html"><span class="glyphicon glyphicon-circle-arrow-left circle-nav-button-right"></span></a>
+             <a href="#"><span class="glyphicon glyphicon-circle-arrow-left circle-nav-button-right"></span></a>
             <a href="#container"><span class="glyphicon glyphicon-circle-arrow-down circle-nav-button-down"></span></a>
             <a href="#"><span class="glyphicon glyphicon-circle-arrow-right circle-nav-button-right"></span></a>
         </div>
@@ -198,6 +201,12 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Wow animations JavaScript -->
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
     <!-- Custom Theme JavaScript -->
     <script>
