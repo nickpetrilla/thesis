@@ -65,7 +65,8 @@ body {
 }
 
 .circle-nav-button-down{
-    color: #fff;
+    position: relative;
+    color:  #FFF ;
     font-size: 35px; 
     opacity: 0.66; 
     margin-top: 33%;
@@ -73,27 +74,24 @@ body {
 
 .circle-nav-button-down:hover{
     color: #40B070;
-    font-size: 35px; 
-    opacity: .9; 
-    margin-top: 33%;
+    opacity: 1; 
 }
 
 .circle-nav-button-right{
-    color: #fff;
+    color:  #FFF ;
     font-size: 35px; 
     opacity: 0.66; 
-    margin-top: 33%;
+    margin-top: auto;
 }
 
 .circle-nav-button-right:hover{
     color: #40B070;
-    font-size: 35px; 
-    opacity: .9;
-    margin-top: 33%;
+    opacity: 1; 
 }
 
 .circle-nav-button-left{
-    color: #fff;
+    position: relative;
+    color:  #FFF ;
     font-size: 35px; 
     opacity: 0.66; 
     margin-top: 33%;
@@ -101,9 +99,7 @@ body {
 
 .circle-nav-button-left:hover{
     color: #40B070;
-    font-size: 35px; 
-    opacity: .9;
-    margin-top: 33%;
+    opacity: 1; 
 }
 
 /* Custom Horizontal Rule */
@@ -204,7 +200,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/edited/john_john_3flip_greatjones_bigger.jpg) no-repeat center center scroll;
+    background: url(../img/edited/conor_john_john_greatjones.jpg) no-repeat center left scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -223,6 +219,41 @@ hr.small {
     -o-background-size: cover;
 }
 
+.header-theory-page {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/edited/skip_fishy_uci1.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-methods-page {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/edited/vx_usc.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-ethnography-page {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/edited/david_richie_irvine_ditch.jpg) no-repeat center left scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 /* About */
 
 .about {
@@ -253,8 +284,14 @@ hr.small {
     -o-background-size: cover;
 }
 /* Full Image Filler */
-.image-bg-fixed-height {
-    background: url(../img/edited/drew_smith_les_header.jpg) no-repeat left center scroll;
+.image-bg-fixed-height-1 {
+    background: url(../img/edited/rich_mass_running_banner.jpg) no-repeat right center scroll;
+    width: 100%;
+    height:100%;
+}
+
+.image-bg-fixed-height-2 {
+    background: url(../img/edited/vhscam.png) no-repeat center center scroll;
     width: 100%;
     height:100%;
 }

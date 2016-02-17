@@ -78,8 +78,8 @@
 }
 .cd-timeline-img img {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 240px;
+  height: 240px;
   position: relative;
   left: 50%;
   top: 50%;
@@ -178,10 +178,19 @@
   margin-left: 60px;
   background: white;
   border-radius: 0.25em;
-  background-color: #f2f2f2;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #40B070; 
+  background-color: #FCFCFC;
   padding: 1em;
-  box-shadow: 0 3px 0 #40B070;
+  box-shadow: 0 2px 2px #EDEDED;
   font-size: 20px;
+}
+
+.cd-timeline-content-img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .cd-timeline-content:after {
   content: "";
@@ -221,7 +230,7 @@
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid white;
+  border-right: 7px solid #40B070;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
@@ -233,7 +242,7 @@
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white;
+    border-left-color: #40B070;
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -253,7 +262,7 @@
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: #40B070;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
