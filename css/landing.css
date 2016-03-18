@@ -17,33 +17,13 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.text-vertical-align {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.text-vertical-align h1 {
-    color: #fff;
-    margin: 0;
-    font-size: 5em;
-    font-weight: 700;
-    text-shadow:2px 2px 5px #000;
-}
-.text-vertical-align h3 {
-    color: #fff;
-    margin: 0;
-    font-size: 2em;
-    font-weight: 500;
-    text-shadow:2px 2px #000;
-}
 
 /* Custom Button Styles */
 
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(64, 176, 112,0.75);
 }
 
 .btn-dark:hover,
@@ -393,6 +373,36 @@ video#bgvid {
     font-size: 50px;
 
 }
+
+.text-vertical-align {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-align h1 {
+    color: #fff;
+    font-style: italic;
+    margin: 0;
+    font-size: 5em;
+    font-weight: 700;
+    text-shadow:2px 2px 5px #40B070;
+}
+.text-vertical-align h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 1.75em;
+    font-weight: 500;
+    text-shadow:.5px .5px #000;
+}
+
+
+
+
+#nextsection {
+float: right;
+}
+
 
 
 @media(min-width:768px) {

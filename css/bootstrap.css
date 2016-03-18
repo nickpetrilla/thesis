@@ -1098,7 +1098,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #40B070;
   text-decoration: none;
 }
 a:hover,
@@ -1144,6 +1144,7 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+
 }
 hr {
   margin-top: 20px;
