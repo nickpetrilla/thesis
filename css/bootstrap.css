@@ -1143,9 +1143,17 @@ img {
           transition: all .2s ease-in-out;
 }
 .img-circle {
+  border-width: 50px;
+  border-color: #40B070;
   border-radius: 50%;
-
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
+.img-circle:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;

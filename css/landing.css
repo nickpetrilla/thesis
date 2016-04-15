@@ -46,41 +46,20 @@ body {
     background-color: rgba(255,255,255,0.8);
 }
 
-.circle-nav-button-down{
+.icons{
+    margin-top: 27%;
+}
+
+.circle-nav-button{
     position: relative;
-    color:  #FFF ;
-    font-size: 35px; 
-    opacity: 0.66; 
-    margin-top: 33%;
+    margin: 5px;
+    color:  #40B070 ;
+    font-size: 40px; 
+    opacity: 0.75; 
 }
 
-.circle-nav-button-down:hover{
-    color: #40B070;
-    opacity: 1; 
-}
-
-.circle-nav-button-right{
-    color:  #FFF ;
-    font-size: 35px; 
-    opacity: 0.66; 
-    margin-top: auto;
-}
-
-.circle-nav-button-right:hover{
-    color: #40B070;
-    opacity: 1; 
-}
-
-.circle-nav-button-left{
-    position: relative;
-    color:  #FFF ;
-    font-size: 35px; 
-    opacity: 0.66; 
-    margin-top: 33%;
-}
-
-.circle-nav-button-left:hover{
-    color: #40B070;
+.circle-nav-button:hover{
+    color: #FFF;
     opacity: 1; 
 }
 
@@ -377,7 +356,7 @@ video#bgvid {
 .text-vertical-align {
     display: table-cell;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .text-vertical-align h1 {
@@ -391,12 +370,28 @@ video#bgvid {
 .text-vertical-align h3 {
     color: #fff;
     margin: 0;
-    font-size: 1.75em;
-    font-weight: 500;
-    text-shadow:.5px .5px #000;
+    font-size: 2em;
+    font-weight: 400;
+    text-shadow:1px 1px 3px #40B070;
 }
 
+.text-vertical-align p {
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    margin: 50;
+    font-size: 1.35em;
+    font-weight: 200;
+}
 
+.intropage-section-headers {
+    color:#40B070;
+}
+
+.cover-description {
+    height: 0px;
+    text-align: right;
+    margin-right: 40px;
+    font-size:12px;
 
 
 #nextsection {
