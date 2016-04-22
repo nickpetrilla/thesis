@@ -36,7 +36,7 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -47,7 +47,7 @@
                 <a href="index.html" onclick = $("#menu-close").click(); >Home</a>
             </li>
             <li>
-                <a href="index.html#about" onclick = $("#menu-close").click(); >Abstract</a>
+                <a href="index.html#about" onclick = $("#menu-close").click(); >About</a>
             </li>
             <li>
                 <a href="index.html#project" onclick = $("#menu-close").click();>Sections</a>
@@ -55,37 +55,28 @@
                 <li>
                     <a href="intro.html" onclick = $("#menu-close").click();>Introduction + Background</a>
                 </li>
-                <li>
-                    <a href="litreview.html" onclick = $("#menu-close").click();>Literature + Theory Review</a>
+                 <li>
+                    <a href="theory.html" onclick = $("#menu-close").click();>Theoretical Lens</a>
                 </li>
                 <li>
                     <a href="researchmethods.html" onclick = $("#menu-close").click();>Research Methods</a>
                 </li>
                 <li>
-                    <a href="participants.html" onclick = $("#menu-close").click();>Participants</a>
+                    <a href="fieldnotes.html" onclick = $("#menu-close").click();>Field Notes</a>
                     <ul>
                         <li>
-                            <a href="johnny.html" onclick = $("#menu-close").click();>Johnny Wilson</a>
+                            <a href="fieldnotes.html#nyc" onclick = $("#menu-close").click();>NYC - The M.P.C.</a>
                         </li>
                         <li>
-                            <a href="skip.html" onclick = $("#menu-close").click();>Grant "Skippy" Levy</a>
+                            <a href="fieldnotes.html#ocla" onclick = $("#menu-close").click();>OC/LA - My Campus</a>
                         </li>
                         <li>
-                            <a href="chris.html" onclick = $("#menu-close").click();>Chris Gregson</a>
-                        </li>
-                        <li>
-                            <a href="matt.html" onclick = $("#menu-close").click();>Matt Bublitz</a>
-                        </li>
-                        <li>
-                            <a href="kim.html" onclick = $("#menu-close").click();>Kim Woozy</a>
+                            <a href="fieldnotes.html#girls" onclick = $("#menu-close").click();>The Girls - #killingitsoftly</a>
                         </li>
                     </ul>    
                 </li>
                 <li>
-                    <a href="analysis.html" onclick = $("#menu-close").click();>Analysis</a>
-                </li>
-                <li>
-                    <a href="discussion.html" onclick = $("#menu-close").click();>Discussion</a>
+                    <a href="analysis.html" onclick = $("#menu-close").click();>Analysis+Discussion</a>
                 </li>
                 <li>
                     <a href="conclusion.html" onclick = $("#menu-close").click();>Conclusion</a>
@@ -125,9 +116,13 @@
             <h1>FIELD NOTES</h1>
             <h3>Street Smarts</h3>
             <br>
-             <a href="#"><span class="glyphicon glyphicon-circle-arrow-left circle-nav-button-right"></span></a>
-            <a href="#container"><span class="glyphicon glyphicon-circle-arrow-down circle-nav-button-down"></span></a>
-            <a href="#"><span class="glyphicon glyphicon-circle-arrow-right circle-nav-button-right"></span></a>
+             <div class="icons wow fadeIn col-md-4 col-md-offset-4" data-wow-duration="1.25s" data-wow-delay=".25s">
+                <a href="researchmethods.html" data-toggle="tooltip" data-placement="bottom" title="Previous: Research Methods"><span class="glyphicon glyphicon-circle-arrow-left circle-nav-button"></span></a>
+                <a href="#nyc" data-toggle="tooltip" data-placement="bottom" title="NYC"><span class="fa fa-subway fa-3x circle-nav-button"></span></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="LA+OC"><span class="fa fa-home fa-3x circle-nav-button"></span></a>
+                <a href="#girls" data-toggle="tooltip" data-placement="bottom" title="The Girls"><span class="fa fa-female fa-3x circle-nav-button"></span></a>
+                <a href="analysis.html" data-toggle="tooltip" data-placement="bottom" title="Next: Analysis + Discussion"><span class="glyphicon glyphicon-circle-arrow-right circle-nav-button"></span></a>
+            </div>
         </div>
     </header> 
 
@@ -140,47 +135,124 @@
         <!-- First Featurette -->
         <div class="featurette">
             <img href="#" id="myBtn" class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500"></a>
-            <h2 class="featurette-heading">This First Heading
-                <span class="text-muted">Will Catch Your Eye</span>
+            <h2 class="featurette-heading">Since September
+                <span class="text-muted"> of 2015</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.<br><br>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.<br><br>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.<br><br>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.<br><br>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.<br><br>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.<br><br></p>
+            <p class="lead"> I have gone out on many sessions and observed numerous skateboarders and skateboard media makers in New York City and the greater Los Angeles area, as well as in digital spaces. I split the majority of my time focusing on three different groups of skateboarders. In New York City, from September to November, I spent time rolling around with a group of skateboarders endearingly known as, but definitely not self-proclaimed, the <a href="http://quartersnacks.com/tag/most-productive-crew/" target="_blank">‘Most Productive Crew’</a>. When the winter months came I retreated to my home turf of Southern California, where the warmer weather allows for skateboarding year around. Here I spent time with a couple groups of skaters and skate media makers, most of which were my close friends and acquaintances from Los Angeles or Orange County. However, feeling the need to diversify my participants I reached out to Kim Woozy, who runs <a href="http://mahfia.tv" target="_blank">MAHFIA.TV</a>, in search of a third group. Although I had never met Kim previously, she would graciously grant me access to observe her and a group of skaters in Long Beach, California. This group is a unique yet definite minority in this <a href="https://www.youtube.com/watch?v=VCRhMwVZMBI" target="_blank">boys club</a> culture, as in it consisted of all girls. Below are the narratives that chronicle the time spent with each group.</p>
         </div>
-        <div>
-                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216896490&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
-                </iframe>
-             </div>
     </div>
-    <aside class="image-bg-fixed-height"></aside>
+<aside id="nyc" class="image-bg-fixed-height-4"></aside>
     <!-- Second Featurette -->
     <div id="container" class="container">
 
+
         <div class="featurette" id="services"> 
-          <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Second Heading
-                <span class="text-muted">Is Pretty Cool Too.</span>
+            <h2 class="featurette-heading">New York City
+                <span class="text-muted">The Most Productive Crew</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">It was in the summer of 2015, while sitting in my seat in the Sunshine Cinema on East Houston Street in Lower Manhattan, when I really began take note of the unique situation I found myself witnessing. The Sunshine Cinema was packed with mostly young men, all skateboarders, anxiously waiting for the show to start. What was about to play was not a big budget Hollywood blockbuster, nor a low budget art film. What was about to play was Sure, an 18-minute long skateboard video shot and edited by Johnny Wilson. Skate videos, as shown in the video below, are a collection of clips, of mostly successfully landed tricks, strewn together to music.</p>
         </div>
-        <hr class="featurette-divider">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/148367665"></iframe>
+            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/133048183?color=40B070&byline=0&portrait=0"></iframe>
+        </div>
+        <div class="featurette">
+            <p class="lead"><br>When the video began to play, amidst a roar of enthusiastic support from the crowd, a collection of logos appeared superimposed over the opening shot. These logos were of mostly local websites and companies that had some sort of affiliation with Johnny and the skateboarders featured in video. The logos included <a href="http://www.alltimers.com/" target="_blank">Alltimers</a>, <a href="http://www.skatejawn.com/" target="_blank">Skate Jawn</a>, and <a href="http://www.quartersnacks.com/" target="_blank">Quartersnacks</a>. However, one logo loomed poignantly out of place, The Swoosh. The mega multinational footwear corporation, Nike Inc., was also backing this video. This is when I realized something very special is occurring here. By merely going out and doing what they enjoy in New York City, these young people had garnered the attention of the biggest sports brand in the world (Ozonian, 2015). It was then that I decided that I would like to spend much more time with this culture, to find out if what Nike see’s as marketable could also be viewed as educational.<br><br>Below I will recount the days I spent observing the filming process in New York City.
+            </p>
         </div>
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
             <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Third Heading
-                <span class="text-muted">Will Seal the Deal.</span>
+            <h2 class="featurette-heading">9/19/2015
+                <span class="text-muted">Lower East Side - Bowery and Canal</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.<br><br>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.<br><br>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.125% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BBIfwVnl-hJ/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">A few tricks from @meowskateboards newest team rider @savheadden at #cherryskatepark in Long Beach. #killinitsoftly #savannahheadden #ladiesofshred #meowskateboards #girlswhoskate 🎥 by @mahfiaboss / @carmenzsf</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A video posted by MAHFIA.TV #killinitsoftly (@mahfia_tv) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-01-29T18:19:03+00:00">Jan 29, 2016 at 10:19am PST</time></p></div></blockquote>
+            <p class="lead">My first day out observing the Most Productive Crew would be on September, 19th 2015 in the Lower East Side. Johnny Wilson was the filmer on this session and was basically calling the shots, assuming a role that could be, albeit cautiously, the equivalent of a team captain. Johnny has put out numerous local videos featuring gritty yet creative skateboarding throughout New York City.<br><br>His videos are often featured on SkateJawn and Quartersnacks, as well as his own personal Vimeo page. Both aforementioned websites have become well known online destinations to view innovative East Coast skateboarding that may not be featured in the California-based mainstream media outlets. On this particular day, Johnny was with a pretty large crew, about 10 skateboarders or more. After skateboarding around Lower Manhattan the group eventually ended up at a destination in the Lower East Side, a stone's throw from the exit of the Manhattan Bridge. When we first arrived, many of the skaters just started messing around, getting a feel for the spot. The spot was a foot high brick pyramid in the middle of cement island on the corner of Bowery and Canal. As everyone else was just messing around, Andrew Wilson, Johnny’s older brother was attempting an ollie (getting the board off the ground) over the top of the pyramid. After only a few tries, he started getting close to successfully riding away. Johnny saw this and got out his camera, the Panasonic HPX170. Within only a couple of tries with Johnny recording, Andrew made (successfully landed) the trick. While trying the trick, Andrew had to navigate many distractions, such as cars, pedestrians, and bicyclists. Johnny had filmed this “long lens”, probably to capture the liveliness of the spot. Someone asked Johnny if he was going to film it “lens”, which would allow the camera to be physically closer to the action, but Johnny declined this suggestion. After Andrew landed it for the first time, Johnny decided there might be a better angle to capture this trick, and moved to reshoot it from another perspective. Very little discussion was had about this choice, as it seems that Johnny’s vision for the shot is quite respected among the group.  Andrew tried the trick one more time, which he landed, and it is quickly agreed upon that the second one the better one. This clip only took about 10 minutes to successfully shoot, and eventually would end up in a video clip called “Sequence 1”, which was used as an opening clip when the Nike Video “Chronicles 3” premiered in New York City.</p>
+        </div>
+    </div>
+
+<aside id="girls" class="image-bg-fixed-height-5"></aside>
+    <!-- Second Featurette -->
+    <div id="container" class="container">
+
+
+        <div class="featurette"> 
+            <h2 class="featurette-heading">The Girls
+                <span class="text-muted">#killingitsoftly</span>
+            </h2>
+            <p class="lead">The last set of notes are from observing a group of skateboarders and skateboard media makers that represent the female minority in skateboarding. Early on in my research I had stumbled upon the website MAHFIA.tv. MAHFIA.tv is a multimedia rich website with that presents itself as “the global destionation for girls action sports media.” At first glance, although one would never know it by visiting other, more popular media outlets, it is widely apparent that action sports and media production is alive and well among girl participants. The website features an aggregate of multimedia dedicated to girls in action sports. Thumbnailed links of recently uploaded video and photo featurettes blanket the homepage, with content providing an in-depth look into these cultures. In addition to covering the culture, MAHFIA.tv also positions itself as a for-hire production company, capable of producing digital media aimed towards the highly sought after youth market. I immediately knew I wanted to include the girls involved with the site because it almost explicitly refers to how multimedia within this culture serves to empower its participants. The larger action sports culture is predominantly male, with media outlets neglecting to highlight female participants. MAHFIA.tv informs it’s audience, by way of a steady stream of content, that this community is just as vibrant, prolific, and capable as those who participate in the male-dominated action sports media outlets. After spending a considerable amount of time on the site, it appeared to me as if producers behind MAHFIA.tv bypassed the gatekeepers at other outlets, and leveraged the power of new media to broadcast their talents, and strengthen its community.<br><br> A few months after initially visiting the site, I decided that whomever was behind this site would be an ideal candidate for the ethnography. I found a generic email on the site and sent a request to speak with whomever was involved. Fortunately, Kim Woozy, founder and producer of the site responded. We set up a time to talk on the phone, which was where I learned more about Kim’s interests and vision as well as realized that for a brief period of time in January, we would both be in Southern California. From there we set up a tentative plan to meet up, skate, and film. Below are the notes from the meeting.</p>
         </div>
         <hr class="featurette-divider">
-         <!-- Footer -->
+        <div class="featurette" id="contact">
+            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <h2 class="featurette-heading">1/9/2016
+                <span class="text-muted">Cherry Park - Long Beach, CA</span>
+            </h2>
+            <p class="lead">I met up with Kim Woozy, the founder of MAHFIA.tv at Cherry Park after the Agenda Tradeshow in Long Beach, CA. Kim was with a group of skaters and a couple other filmers, Monique and Erik. Pretty soon after arriving at the park, it began to rain so the crew decided go into a coffee shop to figure out their next move. It was here in the coffee shop that I was introduced to the skaters and got to hear about the various media projects they were working on. Eventually, the rain stopped and the ground dried up and we decided to stick around the park instead of going street-skating. Eventually Kim and Monique, another filmer began shooting the girls in the park, getting clips “just for Instagram”. While talking to Erik, one of the other filmers working with Monique on the upcoming all girl skate video project Quit Your Day Job, he let me know that because the girl skateboarding scene is so small, Instagram is one of the main ways they all connect. He said a lot of girls that want to get coverage or be featured in the video contact them through this app. While this was only my first time really skating with a mostly girl skate crew, I noticed there were many similarities, as well as some differences. I am definitely wary about making any substantial inferences just yet, due to the limited time spent with this crew, but most of the conversations that the girls were having mirrored what the guys talk about. Topics of conversations included learning tricks, going to spots, filming, sponsors, getting drunk, traveling, injuries, and their aching bodies. The topic of high impact and their bodies, while initially striking me as an interesting, differentiating factor, revealed itself as nothing surprising. Guys fall, girls fall. Aside from the similarities, I did notice this crew was more open to welcoming outsiders. They all seemed to be coming from much different places and converged together because they were all soldiers of the same struggle so to speak, they were girl skaters in a male dominated culture. Being cliquey, like a lot of the male crews I spent time with, may only weaken their community. This seemed to be, while maybe not overtly acknowledged, very important and understood. When it dried up and the girls started skating the park and gathering video footage, they would skate the same obstacle together in close succession to both be featured in the same clip. This informal and low-pressure style of skating and filming went on for a couple of hours and resulted in the instagram post below. </p>
+            <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:1200px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.125% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BBIfwVnl-hJ/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">A few tricks from @meowskateboards newest team rider @savheadden at #cherryskatepark in Long Beach. #killinitsoftly #savannahheadden #ladiesofshred #meowskateboards #girlswhoskate 🎥 by @mahfiaboss / @carmenzsf</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A video posted by MAHFIA.TV #killinitsoftly (@mahfia_tv) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-01-29T18:19:03+00:00">Jan 29, 2016 at 10:19am PST</time></p></div></blockquote>
+            <p class="lead"><br>As the video above ends, the hashtag <a href="https://www.instagram.com/explore/tags/killinitsoftly/" target="_blank">#killingitsoftly</a> appears under the MAHFIA.tv logo. A quick click through videos tagged #killingitsoftly will reveal just how many skaters are out there trying to progress the girl scene via social media.<br><br>As the session ended, I thanked the skaters and Kim for letting me observe their scene. Unfortunately, due to time constraints and physical location, this would be the only time I would be able to observe this third group. However, after the session, I reached out to Kim and set a time a time to interview her at greater length, which can viewed below.</p>
+        </div>
+    </div>
+     <div id="container" class="container">
+        <hr class="featurette-divider">
+        <div class="featurette" id="services"> 
+            <h2 class="featurette-heading">The following
+                <span class="text-muted">section</span>
+            </h2>
+            <p class="lead">will take the information I have gathered and presented above and pull apart the what is happening in the vignettes above and see how this might align with the Connected Learning framework.</p>
+        </div>
+        <hr class="featurette-divider">
+    </div>
+
+
+        <section>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">   
+                        <h1> 
+                            <a href="researchmethods.html">«Previous Section</a>
+                        </h1>
+                    <a href="researchmethods.html" class="portfolio-box">
+                        <img src="img/edited/section_imgs/vx_usc_methods.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Research Methods
+                                </div>
+                                <div class="project-name">
+                                    <b><i>Second Angle</b></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <div class="col-md-4 col-md-offset-2">   
+                        <h1> 
+                            <a href="analysis.html">Next Section»</a>
+                        </h1>
+                    <a href="analysis.html" class="portfolio-box">
+                        <img src="img/edited/section_imgs/cyrus_dgk_reggaeton_research.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Analysis + Discussion
+                                </div>
+                                <div class="project-name">
+                                    <i><b>Example Subheader</i></b>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        
+       <!-- Footer -->
     <footer style="padding-">
         <div class="container">
             <div class="row">
+                <hr class="featurette-divider">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Video Dazed</strong>
                     </h4>
@@ -190,6 +262,7 @@
                         </li>
                     </ul>
                     <br>
+                    <p> Dedicated to my Dad,<br>who taught me all the important stuff.</p>
                     <hr class="small">
                     <p class="text-muted">Creative Commons 2016</p>
                 </div>
@@ -248,6 +321,13 @@ $(document).ready(function(){
     });
 });
 </script>
+
+<!-- Tooltip JavaScript -->
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip(); 
+        });
+    </script>
 
 <!-- INSTA-->
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
