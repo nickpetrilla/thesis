@@ -230,6 +230,30 @@ video#bgvid {
     background-size: cover;
     -o-background-size: cover;
 }
+
+.header-analysis-page {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/edited/cyrus_dgk_reggaeton.jpg) no-repeat center left scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-conclusion-page {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/edited/sunshine_skip_uci_ditch_bottom.jpg) no-repeat center left scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 /* About */
 
 .about {
@@ -417,6 +441,17 @@ video#bgvid {
     text-align: center;
     font-size:14px;
 }
+
+.analysisHeader{
+    font-size:42px;
+    color:#40B070;
+
+}
+.analysisSubheader {
+    font-size:34px;
+
+}
+
 
 #nextsection {
 float: right;
