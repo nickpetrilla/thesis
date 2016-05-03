@@ -390,8 +390,9 @@ video#bgvid {
 }
 
 .featurette-heading {
-    color: #40B070;
+    color: #000;
     font-size: 50px;
+    font-weight: bold;
 
 }
 
